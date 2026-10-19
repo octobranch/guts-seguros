@@ -1,0 +1,158 @@
+[
+  {
+    "path": "index.html",
+    "canonical_path": "",
+    "pair": "index.html",
+    "language": "es",
+    "primary": "seguros en Cancún",
+    "secondary": [
+      "asesoría de seguros en Cancún",
+      "seguros de vida",
+      "gastos médicos mayores",
+      "ahorro y protección"
+    ]
+  },
+  {
+    "path": "seguro-gastos-medicos-mayores-cancun.html",
+    "canonical_path": "seguro-gastos-medicos-mayores-cancun.html",
+    "pair": "gastos-medicos",
+    "language": "es",
+    "primary": "Seguro de gastos médicos mayores en Cancún",
+    "secondary": [
+      "seguro médico en Cancún",
+      "cotizar gastos médicos mayores",
+      "deducible y coaseguro",
+      "hospitales de red en Cancún"
+    ]
+  },
+  {
+    "path": "seguro-de-vida-cancun.html",
+    "canonical_path": "seguro-de-vida-cancun.html",
+    "pair": "vida",
+    "language": "es",
+    "primary": "Seguro de vida en Cancún",
+    "secondary": [
+      "cotizar seguro de vida Cancún",
+      "protección familiar",
+      "beneficiarios de seguro de vida",
+      "seguro de vida temporal y ahorro"
+    ]
+  },
+  {
+    "path": "seguro-educativo-cancun.html",
+    "canonical_path": "seguro-educativo-cancun.html",
+    "pair": "educacion",
+    "language": "es",
+    "primary": "Seguro educativo en Cancún",
+    "secondary": [
+      "seguro de educación Cancún",
+      "ahorro para universidad",
+      "plan de ahorro para hijos",
+      "seguro educativo o ahorro"
+    ]
+  },
+  {
+    "path": "seguro-de-ahorro-cancun.html",
+    "canonical_path": "seguro-de-ahorro-cancun.html",
+    "pair": "ahorro",
+    "language": "es",
+    "primary": "Seguro de ahorro en Cancún",
+    "secondary": [
+      "plan de ahorro Cancún",
+      "ahorro con seguro de vida",
+      "valor de rescate seguro",
+      "rendimiento garantizado o proyectado"
+    ]
+  },
+  {
+    "path": "seguro-persona-clave-cancun.html",
+    "canonical_path": "seguro-persona-clave-cancun.html",
+    "pair": "persona-clave",
+    "language": "es",
+    "primary": "Seguro de persona clave en Cancún",
+    "secondary": [
+      "seguro hombre clave Cancún",
+      "seguro persona clave para empresas",
+      "continuidad empresarial",
+      "protección financiera de socios y personal clave"
+    ]
+  },
+  {
+    "path": "en/index.html",
+    "canonical_path": "en/",
+    "pair": "index.html",
+    "language": "en",
+    "primary": "insurance in Cancun",
+    "secondary": [
+      "insurance advice Cancun",
+      "life insurance",
+      "major medical insurance",
+      "savings and protection"
+    ]
+  },
+  {
+    "path": "en/major-medical-insurance-cancun.html",
+    "canonical_path": "en/major-medical-insurance-cancun.html",
+    "pair": "gastos-medicos",
+    "language": "en",
+    "primary": "Major medical insurance in Cancun",
+    "secondary": [
+      "health insurance Cancun",
+      "medical insurance quote Cancun",
+      "deductible and coinsurance",
+      "hospital network Cancun"
+    ]
+  },
+  {
+    "path": "en/life-insurance-cancun.html",
+    "canonical_path": "en/life-insurance-cancun.html",
+    "pair": "vida",
+    "language": "en",
+    "primary": "Life insurance in Cancun",
+    "secondary": [
+      "life insurance quote Cancun",
+      "family protection",
+      "life insurance beneficiaries",
+      "term life and savings insurance"
+    ]
+  },
+  {
+    "path": "en/education-insurance-cancun.html",
+    "canonical_path": "en/education-insurance-cancun.html",
+    "pair": "educacion",
+    "language": "en",
+    "primary": "Education insurance in Cancun",
+    "secondary": [
+      "education savings Cancun",
+      "children’s education insurance",
+      "university savings plan",
+      "education insurance versus savings"
+    ]
+  },
+  {
+    "path": "en/savings-insurance-cancun.html",
+    "canonical_path": "en/savings-insurance-cancun.html",
+    "pair": "ahorro",
+    "language": "en",
+    "primary": "Savings insurance in Cancun",
+    "secondary": [
+      "savings plan Cancun",
+      "life insurance with savings",
+      "insurance surrender value",
+      "guaranteed versus projected returns"
+    ]
+  },
+  {
+    "path": "en/key-person-insurance-cancun.html",
+    "canonical_path": "en/key-person-insurance-cancun.html",
+    "pair": "persona-clave",
+    "language": "en",
+    "primary": "Key person insurance in Cancun",
+    "secondary": [
+      "key man insurance Cancun",
+      "business key person insurance",
+      "business continuity protection",
+      "essential employee insurance"
+    ]
+  }
+]
