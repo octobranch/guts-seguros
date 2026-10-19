@@ -1,0 +1,45 @@
+name: Publish GUTS static website
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Prepare static URLs and sitemap
+        env:
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
+        run: python3 scripts/prepare_pages.py --base-url "$PAGES_URL" --output _site
+      - name: Validate generated site
+        run: python3 scripts/validate_site.py _site
+      - name: Upload static artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
